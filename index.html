@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>日历组件</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="ui-datapicker-wrapper">
+		<div class="ui-datapicker-title">
+			<a href="#" class="ui-datapicker-btn ui-datapicker-prev-btn">&lt;</a>
+			<a href="#" class="ui-datapicker-btn ui-datapicker-next-btn">&gt;</a>
+			<span class="ui-datapicker-curr-month">2017-4</span>
+		</div>
+		<div class="ui-datapicker-body">
+			<table>
+				<thead>
+					<tr>
+						<th>一</th>
+						<th>二</th>
+						<th>三</th>
+						<th>四</th>
+						<th>五</th>
+						<th>六</th>
+						<th>日</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>29</td>
+						<td>30</td>
+						<td>31</td>
+						<td>1</td>
+						<td>2</td>
+						<td>3</td>
+						<td>4</td>
+					</tr>
+					<tr>
+						<td>29</td>
+						<td>30</td>
+						<td>31</td>
+						<td>1</td>
+						<td>2</td>
+						<td>3</td>
+						<td>4</td>
+					</tr>
+					<tr>
+						<td>29</td>
+						<td>30</td>
+						<td>31</td>
+						<td>1</td>
+						<td>2</td>
+						<td>3</td>
+						<td>4</td>
+					</tr>
+					<tr>
+						<td>29</td>
+						<td>30</td>
+						<td>31</td>
+						<td>1</td>
+						<td>2</td>
+						<td>3</td>
+						<td>4</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div id="test">
+		<p class="p1">1</p>
+		<p class="p">2</p>
+		<p class="p">3</p>
+	</div>
+	<script type="text/javascript">
+		·
+		var test = document.querySelector('#test');
+		var p1 = test.querySelector('p');
+
+		p1.addEventListener('click', function(e) {
+			alert('我是1');
+		}, false);		
+
+	</script>
+</body>
+</html>
